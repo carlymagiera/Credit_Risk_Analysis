@@ -32,10 +32,10 @@ The purpose of this analysis is to use machine learning to predict credit risk f
   - **Accuracy Score:** 0.66
   - **Precision:** 
     - High Risk: 0.01, this model is not precise at predicting high risk loans , resulting in many false positives
-    - Low Risk: 1.0 
+    - Low Risk: 1.00
   - **Recall:** 
     - High Risk: 0.63 
-    - Low Risk: 0.69 
+    - Low Risk: 0.69
   - **F1 Score:**
     - High Risk: 0.02
     - Low Risk: 0.82 
@@ -47,10 +47,10 @@ The purpose of this analysis is to use machine learning to predict credit risk f
   - **Accuracy Score:** 0.54, the accuracy of this model is lower the the previous two.
   - **Precision:**
     - High Risk: 0.01 
-    - Low Risk: 1.0 
+    - Low Risk: 1.00 
   - **Recall:** 
-    - High Risk: 0.69 
-    - Low Risk: 0.40 
+    - High Risk: 0.40 
+    - Low Risk: 0.69 
   - **F1 Score:**
     -  High Risk: 0.01
     -  Low Risk: 0.57 
@@ -63,7 +63,7 @@ The purpose of this analysis is to use machine learning to predict credit risk f
   - **Accuracy Score:** 0.64
   - **Precision:**
     - High Risk: 0.01  
-    - Low Risk: 1.0 
+    - Low Risk: 1.00 
   - **Recall:**
     - High Risk: 0.71  
     - Low Risk: 0.57   
@@ -79,7 +79,7 @@ The purpose of this analysis is to use machine learning to predict credit risk f
   - **Accuracy Score:** .78, Highest accuracy score of the six models 
   - **Precision:** 
     - High Risk: 0.03 
-    - Low Risk: 1.0   
+    - Low Risk: 1.00   
   - **Recall:**
     - High Risk: 0.70 
     - Low Risk: 0.87 
@@ -94,13 +94,13 @@ The purpose of this analysis is to use machine learning to predict credit risk f
   - **Accuracy Score:** 0.69, the accuracy decreased compared to the Balanced Random Forest Classifier F1 score. 
   - **Precision:**
     - High Risk: 0.88, much higher precision at predicting high risk than the other models  
-    - Low Risk: 1.0 
+    - Low Risk: 1.00 
   - **Recall:**
     - High Risk: .38 
-    - Low Risk: 1.0 
+    - Low Risk: 1.00 
   - **F1 Score:**
     - High Risk: 0.53 
-    - Low Risk: 1.0 
+    - Low Risk: 1.00 
     - These are the best F scores of the models tested however the high risk F score is still low. 
   
 ## Summary
